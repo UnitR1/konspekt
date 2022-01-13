@@ -17,7 +17,6 @@
 
 Применение #include guards
 Файл grandfather.h
- #pragma once
  #ifndef H_GRANDFATHER
  #define H_GRANDFATHER
 
@@ -42,6 +41,10 @@
 
 В статье об include guard приводится пример ситуации, в которой нужно использовать тот или иной метод. Выходом является использование include guard, приведенное там же; вариантом использования #pragma once может быть:
 
+```
+ #pragma once
+ //дальше идет код
+```
 Источники: <br> 
 https://ru.wikipedia.org/wiki/Include_guard <br> 
 https://www.youtube.com/watch?v=ZwaE-JM7smI&ab_channel=%23SimpleCode
